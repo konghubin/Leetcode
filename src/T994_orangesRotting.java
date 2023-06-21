@@ -81,9 +81,9 @@ public class T994_orangesRotting {
             
             ans++;
             for(int k = 0;k<size;k++){
-int[] tmp = queue.poll();
-	int i=tmp[0];
-          	  int j=tmp[1];
+                int[] tmp = queue.poll();
+	            int i=tmp[0];
+          	    int j=tmp[1];
                 if(i-1>=0&&grid[i-1][j]==1){
                     queue.add(new int[]{i-1, j});
                     count--;
@@ -101,7 +101,7 @@ int[] tmp = queue.poll();
                  }
                 if(j+1<grid[0].length&&grid[i][j+1]==1){
                     queue.add(new int[]{i, j+1});
-                     count--;
+                    count--;
                     grid[i][j+1] =2; 
                 }
             }
