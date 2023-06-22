@@ -1,4 +1,4 @@
-public class t8_Atoi {
+public class T8_Atoi {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
     }
