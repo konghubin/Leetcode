@@ -1,4 +1,4 @@
-public class t11_water {
+public class T11_water {
     public int maxArea(int[] height) {
         int i = 0;
         int j = height.length - 1;
