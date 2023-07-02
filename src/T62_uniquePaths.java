@@ -2,7 +2,7 @@ public class T62_uniquePaths {
     Integer[][] meno;
     public int uniquePaths(int m, int n) {
         meno = new Integer[m][n];
-        return dfs(m - 1, n - 1)
+        return dfs(m - 1, n - 1);
     }
 
     public int dfs(int m, int n){
